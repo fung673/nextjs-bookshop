@@ -14,7 +14,7 @@ function BookDetail() {
   if (param === BookArray[i].id) {
    return <div className="BookPage">
     <div className="left">
-     <Image src={`/${BookArray[i].img}.jpg`} className="Bookimg" width={300} height={300} />
+     <Image src={`/${BookArray[i].img}.JPG`} className="Bookimg" width={300} height={300} />
      <div className="bookDescription">Description</div>
     </div>
     <div className="mid">
