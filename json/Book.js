@@ -15,7 +15,9 @@ export default {
       "author": "Ingo F. Walther ; Rainer Metzger",
       "publishingHouse": "Ingram International Inc",
       "publishingDate": "2020/07/23",
-      "price": "$500"
+      "price": "$500",
+      'img': './artbook/2'
+
     },
     {
       "id": 3,
@@ -23,7 +25,8 @@ export default {
       "author": "賴毓芝",
       "publishingHouse": "遠足文化事業股份有限公司",
       "publishingDate": "2022/08/31",
-      "price": "$500"
+      "price": "$500",
+      'img': './artbook/3'
     },
     {
       "id": 4,
@@ -31,7 +34,8 @@ export default {
       "author": "雷姆．庫哈斯",
       "publishingHouse": "原點出版社",
       "publishingDate": "2022/08/31",
-      "price": "$500"
+      "price": "$500",
+      'img': './artbook/4'
     },
     {
       "id": 5,
@@ -39,7 +43,8 @@ export default {
       "author": "鄧韻如/ 華斌",
       "publishingHouse": "崧燁文化事業有限公司",
       "publishingDate": "2022/09/08",
-      "price": "$500"
+      "price": "$500",
+      'img': './artbook/5'
     }
   ]
 }
