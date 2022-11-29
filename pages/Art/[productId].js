@@ -1,4 +1,4 @@
-import Book from "../../json/Book"
+import Book from "../../json/artBook"
 import { useRouter } from 'next/router'
 import Image from 'next/image'
 
