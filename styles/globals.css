@@ -106,7 +106,7 @@ a {
   padding-bottom: 10px;
   border-bottom: 3px solid black;
   min-width: 280px;
-  height: 360px;
+  min-height: 360px;
 }
 
 .underline {
