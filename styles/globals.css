@@ -105,8 +105,8 @@ a {
 .bookImage {
   padding-bottom: 10px;
   border-bottom: 3px solid black;
-  width: 280px;
-  height: 380px;
+  min-width: 280px;
+  height: 360px;
 }
 
 .underline {
