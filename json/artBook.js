@@ -45,6 +45,15 @@ export default {
       "publishingDate": "2022/09/08",
       "price": "$500",
       'img': './artbook/5'
+    },
+    {
+      "id": 6,
+      "name": "零基礎OK! 培養你的攝影眼: 花見小路的攝影美學, 用手機拍出PRO級影像作品",
+      "author": "王小路",
+      "publishingHouse": "時報文化出版企業股份有限公司",
+      "publishingDate": "2022/11/29",
+      "price": "$120",
+      'img': './artbook/6'
     }
   ]
 }

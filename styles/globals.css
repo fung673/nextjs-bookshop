@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
 * {
   padding: 0;
   margin: 0;
@@ -6,7 +8,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: white;
+  background-color: rgb(247, 223, 180);
 }
 
 a {
@@ -62,14 +64,49 @@ a {
 .bookContainer {
   margin-top: 50px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .bookDisplay {
   display: flex;
-  flex-wrap: wrap;
-  height: 500px;
-  width: 500px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 650px;
+  width: 320px;
   margin: 20px;
+  border: 2px solid rgb(255, 219, 61);
+  border-radius: 10px;
+  background-color: rgb(253, 250, 246);
+}
+
+.bookTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 5px;
+  height: 135px;
+  width: 300px;
+}
+
+.bookAuthor {
+  font-weight: bolder;
+  font-size: 1rem;
+  padding: 20px 0px;
+}
+
+.bookPrice {
+  font-weight: bold;
+}
+
+.bookImage {
+  padding-bottom: 10px;
+  border-bottom: 3px solid black;
+  width: 300px;
+  height: 380px;
 }
 
 .underline {
@@ -160,12 +197,66 @@ button:hover {
   transition: 0.5s
 }
 
+.smallCart {
+  margin: 10px;
+  width: 120px;
+  height: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: rgb(143, 180, 248);
+  border-radius: 8px
+}
+
+.smallCart:hover {
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s
+}
+
 .spacing {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.3rem;
 }
 
+.inline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100px;
+  width: 500px;
+}
 
+.addAmount {
+  font-family: 'Poppins';
+  height: 50px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.addAmount span {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.addAmount span.num {
+  font-size: 20px;
+  border-right: 2px solid rgb(0, 0, 0, 0.2);
+  border-left: 2px solid rgb(0, 0, 0, 0.2);
+}
+
+.addAmount span.minus {
+  cursor: pointer;
+}
+
+.addAmount span.plus {
+  cursor: pointer;
+}
 
 
 
