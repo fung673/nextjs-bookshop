@@ -62,7 +62,7 @@ export default {
    "publishingHouse": "萬里機構．萬里書店",
    "publishingDate": "2021/10/22",
    "price": "$300",
-   'img': './psybook/1'
+   'img': './psybook/7'
   },
   {
    "id": 8,
@@ -71,7 +71,7 @@ export default {
    "publishingHouse": "世茂出版有限公司",
    "publishingDate": "2022/11/02",
    "price": "$300",
-   'img': './psybook/2'
+   'img': './psybook/8'
 
   },
   {
@@ -81,7 +81,7 @@ export default {
    "publishingHouse": "聯經出版事業股份有限公司",
    "publishingDate": "2022/11/03",
    "price": "$250",
-   'img': './psybook/3'
+   'img': './psybook/9'
   },
   {
    "id": 10,
@@ -90,7 +90,7 @@ export default {
    "publishingHouse": "奇光出版",
    "publishingDate": "2022/11/02",
    "price": "$320",
-   'img': './psybook/4'
+   'img': './psybook/10'
   },
   {
    "id": 11,
@@ -99,7 +99,7 @@ export default {
    "publishingHouse": "楓書坊文化出版社",
    "publishingDate": "2020/04/01",
    "price": "$270",
-   'img': './psybook/5'
+   'img': './psybook/11'
   },
   {
    "id": 12,
@@ -108,7 +108,7 @@ export default {
    "publishingHouse": "遠見天下文化出版股份有限公司",
    "publishingDate": "2022/10/31",
    "price": "$330",
-   'img': './psybook/6'
+   'img': './psybook/12'
   }
  ]
 }
