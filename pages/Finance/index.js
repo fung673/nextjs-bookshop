@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import Book from '../../json/financeBook'
+import Book from '../../json/finBook'
 const BookArray = Book.Books
 
 

@@ -1,4 +1,4 @@
-import Book from "../../json/financeBook"
+import Book from "../../json/finBook"
 import { useRouter } from 'next/router'
 import Image from 'next/image'
 import React from 'react'
