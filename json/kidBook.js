@@ -6,7 +6,7 @@ export default {
    "author": "五味太郎",
    "publishingHouse": "信誼基金出版社",
    "publishingDate": "2022/04/01",
-   "price": "$47",
+   "price": "47",
    'img': './kidbook/1'
   },
   {
@@ -15,7 +15,7 @@ export default {
    "author": "Mike Henson",
    "publishingHouse": "小山丘",
    "publishingDate": "2022/12/07",
-   "price": "$70",
+   "price": "70",
    'img': './kidbook/2'
 
   },
@@ -25,7 +25,7 @@ export default {
    "author": "艾倫．史諾",
    "publishingHouse": "小宇宙文化",
    "publishingDate": "2021/11/10",
-   "price": "$70",
+   "price": "70",
    'img': './kidbook/3'
   },
   {
@@ -34,7 +34,7 @@ export default {
    "author": " 大衛．威廉",
    "publishingHouse": "晨星",
    "publishingDate": "2014/10/01",
-   "price": "$55",
+   "price": "55",
    'img': './kidbook/4'
   },
   {
@@ -43,7 +43,7 @@ export default {
    "author": "吉迪恩．史德勒",
    "publishingHouse": "遠流",
    "publishingDate": "2021/12/29",
-   "price": "$62",
+   "price": "62",
    'img': './kidbook/5'
   },
   {
@@ -52,7 +52,7 @@ export default {
    "author": "民間童話",
    "publishingHouse": "大穎文化事業股份有限公司",
    "publishingDate": "2021/08/12",
-   "price": "$88",
+   "price": "88",
    'img': './kidbook/6'
   }
  ]

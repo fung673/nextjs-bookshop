@@ -12,13 +12,12 @@ export default function BookForKid() {
  return <div className='bookContainer'>{
   BookArray.map((book) => {
    return (
-    <Link href={'/BookForKid/' + book.id} className="bookDisplay">
-     <img src={`/${book.img}.jpg`} width={300} height={350} className="bookImage" />
-     <div className='bookTitle'>{book.name}</div>
+    <div className="bookDisplay">
+     <Link href={'/BookForKid/' + book.id}><img src={`/${book.img}.jpg`} width={300} height={350} className="bookImage" /></Link>
+     <Link href={'/Finance/' + book.id}> <div className='bookTitle'>{book.name}</div></Link>
      <div className='bookAuthor'>{book.author}</div>
-     <div className='bookPrice'>現價: HK{book.price}.00</div>
-    </Link>
-   )
+     <div className='bookPrice'>現價: HK$ {book.price}.00</div>
+    </div>)
   })
 
  }</div>

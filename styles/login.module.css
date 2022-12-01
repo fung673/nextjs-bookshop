@@ -1,0 +1,138 @@
+.left {
+ display: flex;
+ flex-direction: row;
+ color: grey;
+ font-size: 1.2rem;
+ font-weight: bolder;
+ color: #364968;
+ margin: 0px 300px 0px 300px;
+}
+
+.arrow {
+ width: 25px;
+ height: auto;
+ margin: 0px 5px;
+}
+
+.loginBox {
+ margin: 50px 300px 0px 300px;
+ height: 500px;
+ border: 1px solid grey;
+ background-color: white;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 20px;
+}
+
+.loginBox .title {
+ display: flex;
+ align-items: center;
+ font-size: 1.5rem;
+ width: 550px;
+ height: 50px;
+ font-weight: bolder;
+ color: rgb(39, 39, 39);
+ justify-content: space-between;
+}
+
+.titleLeft {
+ padding-left: 5px;
+ border-left: 8px solid rgb(39, 39, 39);
+}
+
+.account {
+ margin-top: 20px;
+ margin-bottom: 5px;
+ display: flex;
+ width: 550px;
+ justify-content: flex-start;
+ font-size: 1.2rem;
+ font-weight: bold
+}
+
+.register {
+ color: rgb(107, 0, 0);
+}
+
+.typeAccount {
+ border-radius: 6px;
+ width: 550px;
+ height: 38px;
+ border: 2px solid grey;
+ font-size: 1.2rem;
+ padding-left: 10px;
+ font-weight: 500
+}
+
+.typeAccount:focus {
+ outline-style: solid;
+ outline-width: 2.5px;
+ outline-color: rgb(36, 76, 255);
+}
+
+.password {
+ margin-top: 10px;
+ margin-bottom: 5px;
+ display: flex;
+ width: 550px;
+ justify-content: flex-start;
+ font-size: 1.2rem;
+ font-weight: bold;
+}
+
+.typePassword {
+ border-radius: 6px;
+ width: 550px;
+ height: 38px;
+ border: 2px solid grey;
+ font-size: 1.6rem;
+ padding-left: 10px;
+}
+
+.typePassword:focus {
+ outline-style: solid;
+ outline-width: 2.5px;
+ outline-color: rgb(36, 76, 255);
+}
+
+.login {
+ width: 550px;
+ margin-top: 80px;
+ font-size: 1.5rem;
+ font-weight: bolder;
+ background-color: rgb(248, 232, 137);
+ border-radius: 8px
+}
+
+.login:hover {
+ transition: 0.9s;
+ background-color: rgb(182, 155, 0);
+ cursor: pointer;
+}
+
+.googleLogin {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 20px;
+ font-weight: bold;
+ font-size: 1.5rem;
+ color: #000000;
+ border: 2px solid rgb(0, 0, 0);
+ height: 50px;
+ width: 250px;
+ border-radius: 10px;
+ background-color: rgb(248, 232, 137);
+}
+
+.googleLogin:hover {
+ transition: 0.9s;
+ background-color: rgb(182, 155, 0);
+}
+
+.googleIcon {
+ margin-right: 10px;
+ width: 30px;
+ height: 30px;
+}

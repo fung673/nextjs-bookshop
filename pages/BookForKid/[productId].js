@@ -39,7 +39,7 @@ function BookDetail() {
       <div >作者: <div className="spacing">{BookArray[i].author}</div></div>
       <div >出版社: <div className="spacing">{BookArray[i].publishingHouse}</div></div>
       <div >出版日期:<div className="spacing">{BookArray[i].publishingDate}</div></div>
-      <div> 現價: HK{BookArray[i].price}.00</div>
+      <div> 現價: HK$　{BookArray[i].price}.00</div>
      </div>
      <div className="inline">數量
       <div className="addAmount">

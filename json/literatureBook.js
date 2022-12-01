@@ -6,7 +6,7 @@ export default {
    "author": "毛姆",
    "publishingHouse": "野人文化股份有限公司",
    "publishingDate": "2019/08/07",
-   "price": "$102",
+   "price": "102",
    'img': './literbook/1'
   },
   {
@@ -15,7 +15,7 @@ export default {
    "author": "國立台灣文學館",
    "publishingHouse": "國立臺灣文學館",
    "publishingDate": "2008/07/01",
-   "price": "$66",
+   "price": "66",
    'img': './literbook/2'
 
   },
@@ -25,7 +25,7 @@ export default {
    "author": "安東尼．聖修伯里",
    "publishingHouse": "好人出版",
    "publishingDate": "2022/11/23",
-   "price": "$203",
+   "price": "203",
    'img': './literbook/3'
   },
   {
@@ -34,7 +34,7 @@ export default {
    "author": "喬治．奧威爾",
    "publishingHouse": "香港中和出版有限公司",
    "publishingDate": "2022/11/08",
-   "price": "$99",
+   "price": "99",
    'img': './literbook/4'
   },
   {
@@ -43,7 +43,7 @@ export default {
    "author": "綏夫特",
    "publishingHouse": "聯經出版事業股份有限公司",
    "publishingDate": "2022/11/03",
-   "price": "$182",
+   "price": "182",
    'img': './literbook/5'
   },
   {
@@ -52,7 +52,7 @@ export default {
    "author": "艾瑪．史東尼克斯",
    "publishingHouse": "尖端出版",
    "publishingDate": "2022/10/07",
-   "price": "$102",
+   "price": "102",
    'img': './literbook/6'
   }
  ]

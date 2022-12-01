@@ -1,0 +1,19 @@
+.button {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 150px;
+ background-color: white;
+ color: black;
+ font-size: 1.5rem;
+ font-family: bold;
+}
+
+.button:hover {
+ cursor: pointer;
+}
+
+.logoutPng {
+ width: 25px;
+ height: auto;
+}

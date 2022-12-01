@@ -1,13 +1,14 @@
 import Head from 'next/head'
 import '../styles/globals.css'
 import Header from '../components/Header'
+import { SessionProvider } from "next-auth/react"
 
 function MyApp({ Component, pageProps }) {
-  return <div>
+  return <SessionProvider>
     <Head><title>NewBookShop</title></Head>
     <Header />
     <Component {...pageProps} />
-  </div>
+  </SessionProvider>
 }
 
 export default MyApp

@@ -1,9 +1,12 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
+import { signIn, signOut, useSession } from 'next-auth/react';
+import styles from '../styles/header.module.css'
 
 
 function Header() {
+ const { data: session, status } = useSession();
  const router = useRouter()
  const path = router.route
  return <div>
@@ -24,9 +27,19 @@ function Header() {
     <li><Link href="/"><img src='/shoppingCart.png'
      alt="Picture of shoppingCart" className='resizeShoppingCart'
     /> 購物車</Link></li>
-    <li><Link href="/"><img src='/Login.png'
+
+
+    {!session && status !== 'authenticated' && (<li><Link href="/Login" className="headerLogin"><img src='/Login.png'
      alt="Picture of shoppingCart" className='resizeLogin'
-    /> 會員登入</Link></li>
+    /> 會員登入</Link></li>)}
+
+
+    {session && status !== 'unauthenticated' &&
+     (<li><Link href="/api/auth/signOut"><button className={styles.button} onClick={(e) => {
+      e.preventDefault()
+      signOut('google')
+     }}><img src='/logout.png' className={styles.logoutPng} />會員登出</button></Link></li>)}
+
    </ul>
   </nav>
  </div>

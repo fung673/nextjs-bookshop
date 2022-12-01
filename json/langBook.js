@@ -6,7 +6,7 @@ export default {
    "author": "阮若缺 (Rachel Juan)",
    "publishingHouse": "瑞蘭國際有限公司",
    "publishingDate": "2022/06/20",
-   "price": "$120",
+   "price": "120",
    'img': './langbook/1'
   },
   {
@@ -15,7 +15,7 @@ export default {
    "author": "EZJapan編輯部/ 水晶安蹄",
    "publishingHouse": "EZ叢書館",
    "publishingDate": "2022/10/05",
-   "price": "$83",
+   "price": "83",
    'img': './langbook/2'
 
   },
@@ -25,7 +25,7 @@ export default {
    "author": "EZKorea編輯部",
    "publishingHouse": "EZ叢書館",
    "publishingDate": "2022/10/05",
-   "price": "$74",
+   "price": "74",
    'img': './langbook/3'
   },
   {
@@ -34,7 +34,7 @@ export default {
    "author": "小西麻亞耶",
    "publishingHouse": "EZ叢書館",
    "publishingDate": "2022/10/05",
-   "price": "$92",
+   "price": "92",
    'img': './langbook/4'
   },
   {
@@ -43,7 +43,7 @@ export default {
    "author": "三民英語編輯小組",
    "publishingHouse": "三民書局股份有限公司",
    "publishingDate": "2022/11/30",
-   "price": "$38",
+   "price": "38",
    'img': './langbook/5'
   },
   {
@@ -52,7 +52,7 @@ export default {
    "author": "龍宜辰/ 許願/ 劉似蓉",
    "publishingHouse": "千華數位文化股份有限公司",
    "publishingDate": "2022/11/20",
-   "price": "$224",
+   "price": "224",
    'img': './langbook/6'
   }
  ]

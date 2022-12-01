@@ -6,7 +6,7 @@ export default {
    "author": "艾瑞克．伯恩",
    "publishingHouse": "小樹文化有限公司",
    "publishingDate": "2022/03/30",
-   "price": "$250",
+   "price": "250",
    'img': './psybook/1'
   },
   {
@@ -15,7 +15,7 @@ export default {
    "author": "佛洛伊德",
    "publishingHouse": "心靈工坊文化事業股份有限公司",
    "publishingDate": "2022/11/02",
-   "price": "$184",
+   "price": "184",
    'img': './psybook/2'
 
   },
@@ -25,7 +25,7 @@ export default {
    "author": "宋學軍",
    "publishingHouse": "海鴿文化出版圖書有限公司",
    "publishingDate": "2022/10/26",
-   "price": "$118",
+   "price": "118",
    'img': './psybook/3'
   },
   {
@@ -34,7 +34,7 @@ export default {
    "author": "蔡培元",
    "publishingHouse": "大塊文化出版股份有限公司",
    "publishingDate": "2022/10/29",
-   "price": "$77",
+   "price": "77",
    'img': './psybook/4'
   },
   {
@@ -43,7 +43,7 @@ export default {
    "author": "宛宛兒",
    "publishingHouse": "大塊文化出版股份有限公司",
    "publishingDate": "2022/10/29",
-   "price": "$88",
+   "price": "88",
    'img': './psybook/5'
   },
   {
@@ -52,7 +52,7 @@ export default {
    "author": "松田英子",
    "publishingHouse": "晨星出版有限公司",
    "publishingDate": "2022/08/12",
-   "price": "$80",
+   "price": "80",
    'img': './psybook/6'
   },
   {
@@ -61,7 +61,7 @@ export default {
    "author": "香港心理學會輔導心理學部",
    "publishingHouse": "萬里機構．萬里書店",
    "publishingDate": "2021/10/22",
-   "price": "$300",
+   "price": "300",
    'img': './psybook/7'
   },
   {
@@ -70,7 +70,7 @@ export default {
    "author": "高橋宏和",
    "publishingHouse": "世茂出版有限公司",
    "publishingDate": "2022/11/02",
-   "price": "$300",
+   "price": "300",
    'img': './psybook/8'
 
   },
@@ -80,7 +80,7 @@ export default {
    "author": "根本裕幸",
    "publishingHouse": "聯經出版事業股份有限公司",
    "publishingDate": "2022/11/03",
-   "price": "$250",
+   "price": "250",
    'img': './psybook/9'
   },
   {
@@ -89,7 +89,7 @@ export default {
    "author": "麥可．班奈特/ 莎拉．班奈特",
    "publishingHouse": "奇光出版",
    "publishingDate": "2022/11/02",
-   "price": "$320",
+   "price": "320",
    'img': './psybook/10'
   },
   {
@@ -98,7 +98,7 @@ export default {
    "author": "中嶋真澄",
    "publishingHouse": "楓書坊文化出版社",
    "publishingDate": "2020/04/01",
-   "price": "$270",
+   "price": "270",
    'img': './psybook/11'
   },
   {
@@ -107,7 +107,7 @@ export default {
    "author": "柏柳康",
    "publishingHouse": "遠見天下文化出版股份有限公司",
    "publishingDate": "2022/10/31",
-   "price": "$330",
+   "price": "330",
    'img': './psybook/12'
   }
  ]
