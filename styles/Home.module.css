@@ -1,0 +1,53 @@
+.container {
+ display: flex;
+ justify-content: center;
+ height: 2500px;
+}
+
+.body {
+ width: 1600px;
+ height: 800px;
+ border-bottom: 0.5px solid black;
+}
+
+.titleLine {
+ display: flex;
+ padding-left: 80px;
+ width: 1000px;
+}
+
+.title {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 25px;
+ background-color: white;
+ height: 65px;
+ width: 130px;
+ font-size: 1.8rem;
+}
+
+.bookContainer {
+ display: flex;
+ justify-content: center;
+ height: 800px;
+}
+
+.bookDisplay {
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+ height: 650px;
+ width: 320px;
+ margin: 20px;
+ border: 3.5px solid rgb(255, 219, 61);
+ border-radius: 10px;
+ background-color: rgb(255, 255, 255);
+}
+
+.body2 {
+ width: 1600px;
+ height: 800px;
+ border-bottom: 0.5px solid black;
+}

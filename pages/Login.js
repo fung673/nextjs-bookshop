@@ -1,6 +1,5 @@
 import styles from '../styles/login.module.css'
 import Link from 'next/link'
-
 export default function login() {
 
 
@@ -21,7 +20,7 @@ export default function login() {
    <input className={styles.typeAccount} type="text"></input>
    <div className={styles.password}>密碼</div>
    <input className={styles.typePassword} type="password"></input>
-   <button className={styles.login}>登入</button>
+   <button className={styles.login} >登入</button>
    <Link href='/api/auth/signin' className={styles.googleLogin}><img src='/google.png' className={styles.googleIcon} /> 使用Google登入</Link>
   </div>
 

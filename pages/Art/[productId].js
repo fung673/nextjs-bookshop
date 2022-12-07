@@ -1,14 +1,16 @@
 import Book from "../../json/artBook"
 import { useRouter } from 'next/router'
 import Image from 'next/image'
-import React from 'react'
+import React, { useContext } from 'react'
 import { useState } from "react"
+import { CartContext } from "../../components/CartContext"
 
 
 
 
 
 function BookDetail() {
+ const { cartItems, setCartItems } = useContext(CartContext)
  const BookArray = Book.Books
  var [sum, setsum] = useState(0)
 
@@ -20,6 +22,20 @@ function BookDetail() {
   if (sum >= 1) setsum(sum - 1)
   return setsum
  }
+
+ function addToCart() {
+  if (sum === 0) { }
+  else if (sum > 10) { alert('每次最多只可購買不超過10本書') }
+  else {
+   alert(`你已放了${sum}本進購物車`)
+   var BookAmount = { 'name': BookArray[i].name, Amount: sum }
+   setCartItems([BookAmount, ...cartItems])
+  }
+  setsum(0)
+ }
+
+ console.log(cartItems)
+
 
  const router = useRouter()
  const params = router.query
@@ -48,7 +64,7 @@ function BookDetail() {
        <span className="plus" onClick={handleAdd}> + </span>
       </div>
      </div>
-     <button className="addToCart"> 加入購物車</button>
+     <button className="addToCart" onClick={addToCart}> 加入購物車</button>
     </div>
     <div className="right"></div >
    </div >
