@@ -30,7 +30,7 @@ export default {
   },
   {
    "id": 4,
-   "name": "神偷阿嬤:大衛‧威廉幽默成長小說1 ",
+   "name": "神偷阿嬤:大衛‧威廉幽默成長小說",
    "author": " 大衛．威廉",
    "publishingHouse": "晨星",
    "publishingDate": "2014/10/01",

@@ -1,18 +1,28 @@
 import React, { useContext } from 'react'
 import { CartContext } from "../components/CartContext"
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import styles from '../styles/cart.module.css'
 
 
 export default function Cart() {
  const { cartItems, setCartItems } = useContext(CartContext)
  function clearCart() { setCartItems([]) }
 
- return <div>
-  {cartItems.map((item) => {
-   return (
-    <div>書本 {item.name}, 數目{item.Amount} </div >
-   )
-  })}
-  <button onClick={clearCart}>清空購物車</button>
+ function clearBook() {
+  const newList = cartItems.slice(1)
+  setCartItems(newList)
+ }
+
+ return <div className={styles.main}>
+  <div className={styles.container}><div className={styles.title}>商品資訊</div>
+   <div className={styles.books}>{cartItems.map((item) => {
+    return (<div className={styles.eachBook}>
+     <div className={styles.bookName}>{item.name}</div >
+     <div className={styles.bookAmount}> 數目{item.Amount} <button onClick={clearBook}>移除</button></div >
+    </div >)
+   })
+   }</div>
+   <button onClick={clearCart} className={styles.button}>清空購物車</button>
+  </div>
  </div >
 }
