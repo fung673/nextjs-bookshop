@@ -34,7 +34,6 @@ function BookDetail() {
   setsum(0)
  }
 
- console.log(cartItems)
 
 
  const router = useRouter()
