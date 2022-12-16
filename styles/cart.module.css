@@ -7,9 +7,9 @@
  display: flex;
  flex-direction: column;
  align-items: center;
- border: 2px solid black;
+ border-top: 2px solid black;
+ border-bottom: 2px solid black;
  width: 1300px;
- height: 800px;
  background-color: white;
 }
 
@@ -26,15 +26,14 @@
 }
 
 .books {
- height: 800px;
+ min-height: 800px;
  width: 1300px;
- border: 2px solid red;
  background-color: rgb(238, 238, 238);
 }
 
 .eachBook {
  height: 50px;
- border-bottom: 1px solid gainsboro;
+ border-bottom: 1px solid rgb(156, 156, 156);
  padding: 5px;
  display: flex;
  flex-direction: row;
@@ -49,10 +48,74 @@
 }
 
 .bookAmount {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 250px;
+ height: 50px;
  padding-right: 20px;
+}
+
+.addButton {
+ width: 30px;
+ height: 25px;
+ margin: 0px 5px;
+ background-color: rgb(255, 243, 137);
+}
+
+.addButton:hover {
+ background-color: rgb(255, 230, 0);
+}
+
+.addButton:active {
+ transform: scale(0.98);
+}
+
+.minusButton {
+ width: 30px;
+ height: 25px;
+ margin: 0px 5px;
+ background-color: rgb(255, 243, 137);
+}
+
+.minusButton:hover {
+ background-color: rgb(255, 230, 0);
+}
+
+.minusButton:active {
+ transform: scale(0.98);
+}
+
+.amount {
+ display: flex;
+ justify-content: center;
+ width: 80px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-weight: bold;
+ font-size: 1.5rem;
+}
+
+.clearCart {
+ width: 50px;
+ height: 25px;
+ font-weight: bold;
+ font-size: 1rem;
+ margin-left: 50px;
 }
 
 .button {
  width: 100px;
- height: 30px;
+ height: 28px;
+ font-weight: bold;
+ font-size: 1rem;
+}
+
+.bottom {
+ width: 500px;
+ height: 80px;
+ border: 2px solid red;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 50px;
 }

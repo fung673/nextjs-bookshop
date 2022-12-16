@@ -14,7 +14,15 @@ function BookDetail() {
  var [sum, setsum] = useState(0)
 
  function handleAdd() {
-  return setsum(sum + 1)
+  if (cartItems.length > 0) {
+   for (var j = 0; j < cartItems.length; j++) {
+    if (BookArray[i].name === cartItems[j].name) {
+     alert('此書已在購物車中');
+     return setsum(0)
+    } else { return setsum(sum + 1) }
+   }
+  }
+  else { return setsum(sum + 1) }
  }
 
  function handleMinus() {
