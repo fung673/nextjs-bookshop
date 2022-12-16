@@ -8,7 +8,7 @@ export default function Cart() {
   const { cartItems, setCartItems } = useContext(CartContext)
 
   function clearCart() {
-    if (confirm("是咪要清空購物車")) { setCartItems([]) }
+    if (confirm("是否要清空購物車")) { setCartItems([]) }
     else { }
   }
 
