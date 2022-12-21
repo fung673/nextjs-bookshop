@@ -6,7 +6,7 @@ export default {
    "author": "余英時",
    "publishingHouse": "時報文化出版企業股份有限公司",
    "publishingDate": "2022/08/02",
-   "price": "250",
+   "price": 250,
    'img': './humanbook/1'
   },
   {
@@ -15,7 +15,7 @@ export default {
    "author": "羅振宇",
    "publishingHouse": "平安文化有限公司",
    "publishingDate": "2022/04/01",
-   "price": "62",
+   "price": 62,
    'img': './humanbook/2'
 
   },
@@ -25,7 +25,7 @@ export default {
    "author": "吉姆．馬賽羅",
    "publishingHouse": "聯經出版事業股份有限公司",
    "publishingDate": "2022/07/07",
-   "price": "90",
+   "price": 90,
    'img': './humanbook/3'
   },
   {
@@ -34,7 +34,7 @@ export default {
    "author": "Gestalten",
    "publishingHouse": "積木文化",
    "publishingDate": "2022/10/01",
-   "price": "150",
+   "price": 150,
    'img': './humanbook/4'
   },
   {
@@ -43,7 +43,7 @@ export default {
    "author": "馬立博",
    "publishingHouse": "春山出版有限公司",
    "publishingDate": "2022/07/05",
-   "price": "105",
+   "price": 105,
    'img': './humanbook/5'
   },
   {
@@ -52,7 +52,7 @@ export default {
    "author": "喬尼．湯姆森",
    "publishingHouse": "麥田出版社",
    "publishingDate": "2022/08/04",
-   "price": "60",
+   "price": 60,
    'img': './humanbook/6'
   }
  ]

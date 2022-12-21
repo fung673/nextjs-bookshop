@@ -35,7 +35,7 @@ function BookDetail() {
   else if (sum > 10) { alert('每次最多只可購買不超過10本書') }
   else {
    alert(`你已放了${sum}本進購物車`)
-   var BookAmount = { 'name': BookArray[i].name, Amount: sum }
+   var BookAmount = { 'name': BookArray[i].name, Amount: sum, 'price': BookArray[i].price }
    setCartItems([BookAmount, ...cartItems])
   }
   setsum(0)

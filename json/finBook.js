@@ -6,7 +6,7 @@ export default {
    "author": "哈佛商業評論",
    "publishingHouse": "遠見天下文化出版股份有限公司",
    "publishingDate": "2022/06/30",
-   "price": "220",
+   "price": 220,
    'img': './financebook/1'
   },
   {
@@ -15,7 +15,7 @@ export default {
    "author": "梁亦鴻",
    "publishingHouse": "寶鼎出版社",
    "publishingDate": "2022/11/03",
-   "price": "78",
+   "price": 78,
    'img': './financebook/2'
 
   },
@@ -25,7 +25,7 @@ export default {
    "author": "上岡正明",
    "publishingHouse": "今周刊出版社股份有限公司",
    "publishingDate": "2022/11/04",
-   "price": "150",
+   "price": 150,
    'img': './financebook/3'
   },
   {
@@ -34,7 +34,7 @@ export default {
    "author": "伍忠賢/ 劉正仁",
    "publishingHouse": "五南圖書出版股份有限公司",
    "publishingDate": "2022/08/28",
-   "price": "99",
+   "price": 99,
    'img': './financebook/4'
   },
   {
@@ -43,7 +43,7 @@ export default {
    "author": "崔英勝/ 吳為",
    "publishingHouse": "財經錢線文化有限公司",
    "publishingDate": "2022/12/08",
-   "price": "82",
+   "price": 82,
    'img': './financebook/5'
   },
   {
@@ -52,7 +52,7 @@ export default {
    "author": "布瑞特．史丁巴格",
    "publishingHouse": "大牌出版",
    "publishingDate": "2022/11/09",
-   "price": "150",
+   "price": 150,
    'img': './financebook/6'
   }
  ]

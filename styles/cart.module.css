@@ -10,7 +10,7 @@
  border-top: 2px solid black;
  border-bottom: 2px solid black;
  width: 1300px;
- background-color: white;
+ background-color: rgb(114, 114, 114);
 }
 
 .title {
@@ -49,15 +49,14 @@
 
 .bookAmount {
  display: flex;
- justify-content: center;
  align-items: center;
- width: 280px;
+ width: 380px;
  height: 50px;
  padding-right: 20px;
 }
 
 .addButton {
- width: 30px;
+ width: 23px;
  height: 25px;
  margin: 0px 5px;
  background-color: rgb(255, 243, 137);
@@ -72,7 +71,7 @@
 }
 
 .minusButton {
- width: 30px;
+ width: 23px;
  height: 25px;
  margin: 0px 5px;
  background-color: rgb(255, 243, 137);
@@ -89,7 +88,7 @@
 .amount {
  display: flex;
  justify-content: center;
- width: 80px;
+ width: 100px;
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  font-weight: bold;
  font-size: 1.5rem;
@@ -100,22 +99,55 @@
  height: 25px;
  font-weight: bold;
  font-size: 1rem;
- margin-left: 50px;
+ margin-left: auto;
 }
 
 .button {
- width: 100px;
- height: 28px;
+ width: 120px;
+ height: 35px;
  font-weight: bold;
  font-size: 1rem;
+ transition: 0.2s;
+ backface-visibility: hidden;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.button:hover {
+ border: 1px solid rgb(0, 0, 0);
+
+}
+
+.button:active {
+ transform: scale(0.98) translateZ(0);
 }
 
 .bottom {
  width: 500px;
  height: 80px;
- border: 2px solid red;
+
  display: flex;
  justify-content: center;
  align-items: center;
  gap: 50px;
+}
+
+.price {
+ display: flex;
+ width: 65px;
+ justify-content: center;
+ font-size: 1rem;
+}
+
+.totalContainer {
+ display: flex;
+ border: 2px solid khaki;
+ background-color: white;
+ border-radius: 12px;
+ width: 200px;
+ height: 50px;
+ align-items: center;
+ justify-content: center;
+ font-weight: bolder;
+ font-size: 1.5rem;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

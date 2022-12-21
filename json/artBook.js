@@ -6,7 +6,7 @@ export default {
       "author": "Phaidon Editors",
       "publishingHouse": "PHAIDON PRESS LIMITED",
       "publishingDate": "2012/09/03",
-      "price": "500",
+      "price": 500,
       'img': './artbook/1'
     },
     {
@@ -15,7 +15,7 @@ export default {
       "author": "Ingo F. Walther ; Rainer Metzger",
       "publishingHouse": "Ingram International Inc",
       "publishingDate": "2020/07/23",
-      "price": "500",
+      "price": 500,
       'img': './artbook/2'
 
     },
@@ -25,7 +25,7 @@ export default {
       "author": "賴毓芝",
       "publishingHouse": "遠足文化事業股份有限公司",
       "publishingDate": "2022/08/31",
-      "price": "500",
+      "price": 500,
       'img': './artbook/3'
     },
     {
@@ -43,7 +43,7 @@ export default {
       "author": "鄧韻如/ 華斌",
       "publishingHouse": "崧燁文化事業有限公司",
       "publishingDate": "2022/09/08",
-      "price": "500",
+      "price": 500,
       'img': './artbook/5'
     },
     {
@@ -52,7 +52,7 @@ export default {
       "author": "王小路",
       "publishingHouse": "時報文化出版企業股份有限公司",
       "publishingDate": "2022/11/29",
-      "price": "120",
+      "price": 120,
       'img': './artbook/6'
     }
   ]
