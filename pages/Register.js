@@ -36,7 +36,7 @@ export default function Register(props) {
   else if (formData.password !== formData.passwordConfirm) { alert('密碼不一致') }
   else if (formData.userID && (formData.password === formData.passwordConfirm && (formData.password.length > 6))) {
    router.push('/')
-   alert('成功登入')
+   alert('成功註冊')
    writeUserData(date, formData.userID, formData.password)
    setLogin(true)
   }

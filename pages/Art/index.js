@@ -18,7 +18,7 @@ export default function Art() {
           <Link href={'/Art/' + book.id}><img src={`/${book.img}.jpg`} width={300} height={350} className="bookImage" /></Link>
           <Link href={'/Art/' + book.id}> <div className='bookTitle'>{book.name}</div></Link>
           <div className='bookAuthor'>{book.author}</div>
-          <div className='bookPrice'>現價: HK${book.price}.00</div>
+          <div className='bookPrice'>現價: HK$ {book.price}.00</div>
         </div>)
     })
 
