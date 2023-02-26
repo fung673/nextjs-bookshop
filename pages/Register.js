@@ -40,7 +40,7 @@ export default function Register(props) {
   if (formData.password.length <= 6) { alert('密碼需多於6位數') }
   else if (formData.password.length <= 6) { alert('密碼需多於6位數') }
   else if (formData.password !== formData.passwordConfirm) { alert('密碼不一致') }
-  try {
+  else try {
    await createUserWithEmailAndPassword(auth, loginEmail, loginPassword)
    router.push('/')
    alert('成功註冊')
