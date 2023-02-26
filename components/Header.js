@@ -3,12 +3,19 @@ import Image from 'next/image'
 import { useRouter } from 'next/router'
 import { signIn, signOut, useSession } from 'next-auth/react';
 import styles from '../styles/header.module.css'
+import { AuthContext } from './AuthContext';
+import { useContext } from 'react';
 
 
 function Header() {
+  const { login, setLogin } = useContext(AuthContext)
   const { data: session, status } = useSession();
   const router = useRouter()
   const path = router.route
+  function handleLogout() {
+    setLogin(false)
+  }
+
   return <div>
     <nav className="layout-header">
       <ul className="header-container ">
@@ -27,10 +34,10 @@ function Header() {
         <li><Link href="/Cart"><img src='/shoppingCart.png'
           alt="Picture of shoppingCart" className='resizeShoppingCart'
         /> 購物車</Link></li>
-        {!session && status !== 'authenticated' ? <li><Link href="/Login" className="headerLogin"><img src='/Login.png'
+        {login != true ? <li><Link href="/Login" className="headerLogin"><img src='/Login.png'
           alt="Picture of shoppingCart" className='resizeLogin'
         /> 會員登入</Link></li> : <li><Link href="/api/auth/signout" className="headerLogin"><img src='/Login.png'
-          alt="Picture of shoppingCart" className='resizeLogin'
+          alt="Picture of shoppingCart" className='resizeLogin' onClick={handleLogout}
         /> 會員登出</Link></li>}
 
       </ul>

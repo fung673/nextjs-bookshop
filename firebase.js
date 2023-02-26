@@ -1,5 +1,6 @@
 import { initializeApp } from "firebase/app";
-import { getDatabase, ref, set } from "firebase/database";
+import { getDatabase, ref, set, collection } from "firebase/database";
+import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
  apiKey: "AIzaSyAWA35qY8cWy0R-q6ZYIKy0CCSqUCmznlQ",
@@ -16,9 +17,18 @@ const app = initializeApp(firebaseConfig);
 export default function writeUserData(userId, name, userPassword) {
  const db = getDatabase();
  const reference = ref(db, 'users/' + userId)
+ const reference2 = ref(db, 'username/' + name)
 
  set(reference, {
   username: name,
   password: userPassword,
  })
+
+ set(reference2, {
+  username: name,
+ })
 }
+
+export const auth = getAuth();
+
+
