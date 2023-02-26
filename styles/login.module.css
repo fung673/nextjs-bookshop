@@ -15,6 +15,7 @@
 }
 
 .loginBox {
+ border-radius: 20px;
  margin: 50px 300px 0px 300px;
  height: 500px;
  border: 1px solid grey;
