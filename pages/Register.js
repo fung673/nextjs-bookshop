@@ -86,7 +86,7 @@ export default function Register(props) {
    <div>登入會員</div></div>
   <div className={styles.registerBox}>
    <div className={styles.title}><div className={styles.titleLeft}> 註冊</div></div>
-   <div className={styles.account}><div className={styles.redStar}>*</div>帳號名稱</div>
+   <div className={styles.account}><div className={styles.redStar}>*</div>電郵地址</div>
    <input className={styles.typeAccount} type="text" name="userID" onChange={handleChange} value={formData.userID}></input>
    <div className={styles.password}><div className={styles.redStar}>*</div>密碼</div>
    <input className={styles.typePassword} type="password" placeholder='6~24位英文及數字混合' name="password"

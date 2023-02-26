@@ -52,7 +52,7 @@ export default function login() {
    <div className={styles.title}>
     <div className={styles.titleLeft}> 登入會員</div> <div className={styles.titleRight}>還不是會員嗎？<Link className={styles.register} href='/Register'>註冊會員</Link></div>
    </div>
-   <div className={styles.account}>帳號</div>
+   <div className={styles.account}>電郵地址</div>
    <input className={styles.typeAccount} type="text" onChange={handleChange} name="email" value={user.email} />
    <div className={styles.password}>密碼</div>
    <input className={styles.typePassword} type="password" onChange={handleChange} name="password" value={user.password} />
