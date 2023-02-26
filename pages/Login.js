@@ -4,8 +4,11 @@ import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { useState } from 'react';
 import { auth } from '../firebase'
 import { useRouter } from 'next/router'
+import { useContext } from 'react';
+import { AuthContext } from '../components/AuthContext';
 
 export default function login() {
+ const { login, setLogin } = useContext(AuthContext)
  const router = useRouter()
  const [user, setUser] = useState(
   {
@@ -19,12 +22,14 @@ export default function login() {
   console.log(user)
  }
 
- const login = async () => {
+ const handleLogin = async () => {
   try {
    await signInWithEmailAndPassword(auth, user.email, user.password)
+   setLogin(true)
+   console.log(login)
    router.push('/')
    alert('成功登入')
-   setLogin(true)
+
   }
   catch (error) {
    const errorCode = error.code;
@@ -56,7 +61,7 @@ export default function login() {
    <input className={styles.typeAccount} type="text" onChange={handleChange} name="email" value={user.email} />
    <div className={styles.password}>密碼</div>
    <input className={styles.typePassword} type="password" onChange={handleChange} name="password" value={user.password} />
-   <button className={styles.login} onClick={login}>登入</button>
+   <button className={styles.login} onClick={handleLogin}>登入</button>
    <Link href='/api/auth/signin' className={styles.googleLogin}><img src='/google.png' className={styles.googleIcon} /> 使用Google登入</Link>
   </div>
 
