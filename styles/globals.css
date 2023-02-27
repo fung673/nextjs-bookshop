@@ -133,7 +133,6 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  border: 2px solid red;
   height: 1000px;
 }
 
@@ -194,16 +193,15 @@ a {
 
 
 .right {
-  border: 2px solid rgb(255, 216, 42);
   width: 300px;
   height: 800px;
 }
 
 .addToCart {
-  width: 280px;
+  width: 230px;
   height: 50px;
   font-size: 2rem;
-  background: #2980b9;
+  background: #9ee5ff;
   font-weight: bold;
   border-radius: 6px;
   border: 2px solid black;
@@ -211,8 +209,8 @@ a {
 }
 
 .addToCart:hover {
-  background-color: #c2efff;
-  transition: 0.5s
+  background-color: #2980b9;
+  transition: 0.3s
 }
 
 
