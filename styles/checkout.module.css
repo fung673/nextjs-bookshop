@@ -2,7 +2,6 @@
 
 .main {
  display: flex;
- border: 2px solid red;
 }
 
 
@@ -30,6 +29,7 @@
  border: 2px solid yellowgreen;
 }
 
+
 .input {
  border: 1px solid black;
  margin: 15px 20px;
@@ -52,6 +52,8 @@
 }
 
 .input2 {
+ border-radius: 5px;
+ border: 1px solid black;
  margin: 15px 20px;
  width: 350px;
  height: 65px;
@@ -72,6 +74,23 @@
  outline: none;
 }
 
+.button {
+ color: white;
+ background-color: rgba(0, 0, 0, 0.920);
+ border: 1px solid black;
+ margin: 15px 20px;
+ width: 350px;
+ height: 38px;
+ font-size: 1.1rem;
+ padding: 6px;
+ border-radius: 5px;
+}
+
+.button:hover {
+ cursor: pointer;
+ transition: 0.3s;
+ background-color: rgba(0, 0, 0, 0.945);
+}
 
 .right {
  display: flex;
@@ -109,9 +128,11 @@
 }
 
 .subTotalFee {
- font-family: Verdana, Geneva, Tahoma, sans-serif;
- font-size: 0.9rem;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 1.1rem;
  color: rgb(0, 0, 0);
+ font-weight: 100;
+ padding-right: 20px;
 }
 
 .deliveryFee {
@@ -136,9 +157,12 @@
 }
 
 .TotalFee {
+ display: flex;
+ align-items: center;
  font-family: 'Roboto Condensed';
- font-size: 1.5rem;
- font-weight: bold;
+ font-size: 1.8rem;
+ font-weight: 350;
+ padding-right: 10px;
  color: rgb(20, 131, 20);
 }
 
