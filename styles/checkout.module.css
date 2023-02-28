@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
 .main {
  display: flex;
- height: 800px;
  border: 2px solid red;
 }
 
@@ -76,15 +77,14 @@
  display: flex;
  flex-direction: column;
  width: 880px;
- height: 650px;
  border: 2px solid yellow;
  border-radius: 10px;
  background-color: rgb(255, 255, 233);
- margin: 80px;
+ margin: 30px 80px 0px 80px;
 }
 
 .orderSummary {
- margin: 10px 30px;
+ margin: 5px 5px;
  height: 200px;
 }
 
@@ -99,12 +99,19 @@
 
 .subTotal {
  display: flex;
+ justify-content: space-between;
  align-items: center;
  font-weight: bolder;
  height: 55px;
  padding: 5px;
  background-color: white;
  border-bottom: 1px solid gainsboro;
+}
+
+.subTotalFee {
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 0.9rem;
+ color: rgb(0, 0, 0);
 }
 
 .deliveryFee {
@@ -119,6 +126,7 @@
 
 .Total {
  display: flex;
+ justify-content: space-between;
  align-items: center;
  font-weight: bolder;
  height: 55px;
@@ -127,10 +135,75 @@
  background-color: white;
 }
 
+.TotalFee {
+ font-family: 'Roboto Condensed';
+ font-size: 1.5rem;
+ font-weight: bold;
+ color: rgb(20, 131, 20);
+}
+
+.eachBook {
+ height: 80px;
+ border-bottom: 1px solid rgb(156, 156, 156);
+ padding: 5px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ font-size: 1.2rem;
+ font-weight: 800;
+}
+
+.bookName {
+ max-width: 600px;
+}
+
 .bookAmount {
+ font-family: 'Roboto Condensed';
  display: flex;
  align-items: center;
- width: 380px;
+ width: 250px;
  height: 50px;
- padding-right: 20px;
+ font-weight: bold;
+ justify-content: space-evenly;
+}
+
+.price {
+ margin-left: 12px;
+ display: flex;
+ font-size: 1.2rem;
+ font-family: 'Roboto Condensed';
+ font-weight: bold;
+}
+
+.header2 {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ font-weight: bolder;
+ height: 35px;
+ padding: 5px;
+ background-color: rgb(168, 168, 168);
+}
+
+.header2Left {
+ font-size: 1.2rem;
+ font-weight: bolder;
+
+}
+
+.header2Right {
+
+ display: flex;
+ align-items: center;
+ width: 250px;
+ height: 50px;
+ font-weight: bold;
+ justify-content: space-between;
+ padding: 0px 38px;
+}
+
+.header2RightRight {
+
+ margin-right: 20px;
 }
