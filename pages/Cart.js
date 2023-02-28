@@ -2,10 +2,16 @@ import React, { useContext } from 'react'
 import { CartContext } from "../components/CartContext"
 import { useState, useEffect } from 'react'
 import styles from '../styles/cart.module.css'
+import { useRouter } from 'next/router'
 
 
 export default function Cart() {
   const { cartItems, setCartItems } = useContext(CartContext)
+  const router = useRouter()
+
+  function checkOut() {
+    router.push('/checkout')
+  }
 
   function clearCart() {
     if (confirm("是否要清空購物車")) { setCartItems([]) }
@@ -73,7 +79,7 @@ export default function Cart() {
       <div className={styles.bottom}>
         <button onClick={clearCart} className={styles.button}>清空購物車</button>
         <div><div className={styles.totalContainer}>總計: ${sum}.00</div></div>
-        <button onClick className={styles.button}>前往結賬</button>
+        <button onClick={checkOut} className={styles.button}>前往結賬</button>
       </div>
     </div>
   </div >
