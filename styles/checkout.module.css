@@ -159,6 +159,7 @@
 }
 
 .bookAmount {
+ border: 2px solid saddlebrown;
  font-family: 'Roboto Condensed';
  display: flex;
  align-items: center;
@@ -169,8 +170,10 @@
 }
 
 .price {
+ width: 100px;
  margin-left: 12px;
  display: flex;
+ justify-content: right;
  font-size: 1.2rem;
  font-family: 'Roboto Condensed';
  font-weight: bold;
@@ -203,7 +206,7 @@
  padding: 0px 38px;
 }
 
-.header2RightRight {
 
+.header2RightRight {
  margin-right: 20px;
 }
