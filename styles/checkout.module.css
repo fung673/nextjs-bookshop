@@ -76,6 +76,13 @@
  outline: none;
 }
 
+.select {
+ margin: 15px 20px;
+ width: 150px;
+ height: 26px;
+ padding: 0px 0px 0px 10px;
+}
+
 .button {
  color: white;
  background-color: rgba(0, 0, 0, 0.920);
