@@ -16,12 +16,13 @@ export default function Checkout() {
   })
 
   const [delivery, setDelivery] = useState(0)
+  const [deliveryFee, setDeliveryfee] = useState(0)
 
   function multiple(a, b) {
     return a * b
   }
   var amountPrice = cartItems.map((item) => { return multiple(item.Amount, item.price) })
-  const sum = amountPrice.reduce((accumulator, value) => {
+  const totalSum = amountPrice.reduce((accumulator, value) => {
     return accumulator + value;
   }, 0);
 
@@ -60,17 +61,17 @@ export default function Checkout() {
         <textarea className={styles.input2} placeholder=" Address *" name="Address" onChange={handleChange} />
         <select className={styles.select} required value={delivery} onChange={handleDelivery}>
           <option value="" >請選擇領取方式 </option>
-          <option value="express" >快遞服務</option>
-          <option value="self" >自取</option>
+          <option value="express" >快遞服務 ($50)</option>
+          <option value="self" >自取 (地址請填自取)</option>
         </select>
         <button className={styles.button} onClick={checkInfo}>下單</button>
       </div>
     </form>
     <div className={styles.right}><div className={styles.orderSummary}>
       <div className={styles.header}>訂單撰要</div>
-      <div className={styles.subTotal}><div>總金額</div><div className={styles.subTotalFee}>${sum}</div></div>
-      <div className={styles.deliveryFee}>運費</div>
-      <div className={styles.Total}><div>總金額</div><div className={styles.TotalFee}>HKD ${sum}</div></div>
+      <div className={styles.subTotal}><div>項目金額</div><div className={styles.subTotalFee}>${totalSum}</div></div>
+      <div className={styles.deliveryFee}><div>運費</div>{delivery == "express" ? `$${50}` : `$${0}`}</div>
+      <div className={styles.Total}><div>總金額</div><div className={styles.TotalFee}>HKD ${totalSum + deliveryFee}</div></div>
     </div>
       <div className={styles.header2}>
         <div className={styles.header2Left}>商品</div>
@@ -80,7 +81,7 @@ export default function Checkout() {
         return (<div className={styles.eachBook} key={item.id}>
           <div className={styles.bookName}>{item.Id}{item.name}</div >
           <div className={styles.bookAmount}>
-            <div className={styles.amount}>數目{item.Amount}</div><div className={styles.price}>${multiple(item.Amount, item.price)}.00</div></div >
+            <div className={styles.amount}>{item.Amount}</div><div className={styles.price}>${multiple(item.Amount, item.price)}.00</div></div >
 
         </div >)
       })

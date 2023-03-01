@@ -78,11 +78,13 @@
 }
 
 .select {
+ display: flex;
+ align-items: center;
  font-family: "Noto Sans TC";
  font-size: 1rem;
  margin: 15px 20px;
  width: 180px;
- height: 26px;
+ height: 28px;
  padding: 0px 0px 0px 10px;
 }
 
@@ -120,6 +122,8 @@
 }
 
 .header {
+ font-weight: 500;
+ font-size: 1.2rem;
  display: flex;
  align-items: center;
  font-weight: bolder;
@@ -132,7 +136,8 @@
  display: flex;
  justify-content: space-between;
  align-items: center;
- font-weight: bolder;
+ font-weight: 200;
+ font-size: 1.2rem;
  height: 55px;
  padding: 5px;
  background-color: white;
@@ -149,10 +154,12 @@
 
 .deliveryFee {
  display: flex;
+ justify-content: space-between;
  align-items: center;
- font-weight: bolder;
+ font-weight: 200;
+ font-size: 1.2rem;
  height: 55px;
- padding: 5px;
+ padding: 5px 25px 5px 5px;
  background-color: white;
  border-bottom: 1px solid gainsboro;
 }
@@ -166,12 +173,13 @@
  padding: 5px;
  padding-bottom: 10px;
  background-color: white;
+ font-weight: 800;
+ font-size: 1.5rem;
 }
 
 .TotalFee {
  display: flex;
  align-items: center;
- font-family: 'Roboto Condensed';
  font-size: 1.8rem;
  font-weight: 350;
  padding-right: 10px;
@@ -186,8 +194,8 @@
  flex-direction: row;
  justify-content: space-between;
  align-items: center;
+ font-weight: 200;
  font-size: 1.2rem;
- font-weight: 800;
 }
 
 .bookName {
@@ -195,12 +203,12 @@
 }
 
 .bookAmount {
- font-family: 'Roboto Condensed';
+ font-weight: 200;
+ font-size: 1.2rem;
  display: flex;
  align-items: center;
  width: 250px;
  height: 50px;
- font-weight: bold;
  justify-content: space-evenly;
 }
 
@@ -209,6 +217,7 @@
  margin-left: 12px;
  display: flex;
  justify-content: right;
+ font-weight: 200;
  font-size: 1.2rem;
  font-family: 'Roboto Condensed';
  font-weight: bold;
