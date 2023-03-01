@@ -68,8 +68,9 @@ export default function Cart() {
         return (<div className={styles.eachBook} key={item.id}>
           <div className={styles.bookName}>{item.Id}{item.name}</div >
           <div className={styles.bookAmount}>
+
+            <div className={styles.amount}>數目{item.Amount}</div>
             <button className={styles.minusButton} onClick={() => minusAmount(item.name)}>-</button>
-            <div className={styles.amount}>{item.Amount}</div>
             <button className={styles.addButton} onClick={() => addAmount(item.name)}>+</button>
             <div className={styles.price}>${multiple(item.Amount, item.price)}.00</div>
             <button className={styles.clearCart} onClick={() => clearBook(item.name)}>移除</button></div >
