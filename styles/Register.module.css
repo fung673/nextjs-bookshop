@@ -67,9 +67,7 @@
 }
 
 .typeAccount:focus {
- outline-style: solid;
- outline-width: 1px;
- outline-color: rgb(36, 76, 255);
+ outline: none;
 }
 
 .password {
@@ -93,9 +91,7 @@
 }
 
 .typePassword:focus {
- outline-style: solid;
- outline-width: 1px;
- outline-color: rgb(36, 76, 255);
+ outline: none;
 }
 
 .register {
