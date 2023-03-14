@@ -22,10 +22,11 @@
  align-items: center;
  border-radius: 25px;
  background-color: white;
- border: 2px solid rgb(75, 75, 75);
+ border: 3px solid rgb(12, 12, 12);
  height: 65px;
  width: 130px;
  font-size: 1.8rem;
+ font-family: 'Noto Sans TC';
 }
 
 .bookContainer {
