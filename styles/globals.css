@@ -5,11 +5,14 @@
   padding: 0;
   margin: 0;
   font-family: "Noto Sans TC";
+
 }
 
 body {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
   background-color: #1E2329;
 }
 
@@ -66,7 +69,6 @@ a {
 }
 
 .bookContainer {
-  width: 2000px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -262,17 +264,4 @@ a {
 
 .addAmount span.plus {
   cursor: pointer;
-}
-
-
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-
-  body {
-    color: white;
-    background: black;
-  }
 }
