@@ -144,3 +144,43 @@
  width: 30px;
  height: 30px;
 }
+
+@media (max-width: 500px) {
+ .loginBox .title {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  font-size: 1.5vw;
+  height: 50px;
+  font-weight: bolder;
+  color: rgb(39, 39, 39);
+  justify-content: space-between;
+ }
+
+ .userBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+ }
+
+ .typeAccount {
+  border-radius: 3px;
+  width: 65%;
+  height: 30px;
+  border: 2px solid grey;
+  font-size: 1rem;
+  padding-left: 5px;
+  font-weight: 500
+ }
+
+ .typePassword {
+  border-radius: 3px;
+  width: 65%;
+  height: 30px;
+  border: 2px solid grey;
+  font-size: 1rem;
+  padding-left: 5px;
+ }
+}
