@@ -5,7 +5,6 @@
  display: flex;
  margin: 0;
  padding: 0;
- border: 2px solid red;
 }
 
 
@@ -80,7 +79,6 @@
 }
 
 .select {
- border: 2px solid red;
  display: flex;
  align-items: center;
  font-family: "Noto Sans TC";
@@ -207,7 +205,6 @@
 }
 
 .bookName {
- border: 2px solid red;
  max-width: 18vw;
  font-size: 1vw;
 }
@@ -242,7 +239,6 @@
 }
 
 .header2Left {
- border: 2px solid red;
  margin-left: 5px;
  width: 5vw;
  font-size: 0.8rem;
@@ -271,7 +267,6 @@
   display: flex;
   margin: 0;
   padding: 0;
-  border: 2px solid red;
   flex-direction: column;
  }
 }
@@ -280,7 +275,7 @@
 @media (max-width: 500px) {
 
  .list {
-  border: 2px solid red;
+
   margin: 10px 50px;
   width: 80%;
   height: 64vh;
