@@ -3,6 +3,9 @@
 
 .main {
  display: flex;
+ margin: 0;
+ padding: 0;
+ border: 2px solid red;
 }
 
 
@@ -10,11 +13,10 @@
  border: 2px solid rgb(2, 2, 2);
  display: flex;
  flex-direction: column;
- width: 600px;
  height: 650px;
  border-radius: 10px;
  background-color: rgb(255, 255, 233);
- margin: 50px;
+ margin: 10%;
  justify-content: left;
 }
 
@@ -26,15 +28,15 @@
 
 .list {
  margin: 10px 50px;
- width: 500px;
- height: 600px;
+ width: 25vw;
+ height: 64vh;
 }
 
 
 .input {
  border: 1px solid black;
  margin: 15px 20px;
- width: 350px;
+ width: 50%;
  height: 38px;
  font-size: 0.9rem;
  padding: 6px;
@@ -57,7 +59,7 @@
  border-radius: 5px;
  border: 1px solid black;
  margin: 15px 20px;
- width: 350px;
+ width: 80%;
  height: 65px;
  padding: 6px;
  outline: none;
@@ -78,13 +80,14 @@
 }
 
 .select {
+ border: 2px solid red;
  display: flex;
  align-items: center;
  font-family: "Noto Sans TC";
  font-size: 1rem;
  margin: 15px 20px;
- width: 180px;
- height: 28px;
+ width: 150px;
+ height: 30px;
  padding: 0px 0px 0px 10px;
 }
 
@@ -96,7 +99,7 @@
  background-color: rgba(0, 0, 0, 0.920);
  border: 2px solid black;
  margin: 15px 20px;
- width: 350px;
+ width: 50%;
  height: 38px;
  font-size: 1.1rem;
  padding: 6px;
@@ -117,10 +120,8 @@
  border: 2px solid rgb(2, 2, 2);
  display: flex;
  flex-direction: column;
- width: 880px;
  border-radius: 10px;
  background-color: rgb(255, 255, 233);
- margin: 50px 80px 0px 80px;
 }
 
 .orderSummary {
@@ -130,7 +131,7 @@
 
 .header {
  font-weight: 500;
- font-size: 1.2rem;
+ font-size: 1rem;
  display: flex;
  align-items: center;
  font-weight: bolder;
@@ -144,7 +145,7 @@
  justify-content: space-between;
  align-items: center;
  font-weight: 200;
- font-size: 1.2rem;
+ font-size: 1rem;
  height: 55px;
  padding: 5px;
  background-color: white;
@@ -153,7 +154,7 @@
 
 .subTotalFee {
  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- font-size: 1.1rem;
+ font-size: 1rem;
  color: rgb(0, 0, 0);
  font-weight: 100;
  padding-right: 20px;
@@ -164,7 +165,7 @@
  justify-content: space-between;
  align-items: center;
  font-weight: 200;
- font-size: 1.2rem;
+ font-size: 1rem;
  height: 55px;
  padding: 5px 25px 5px 5px;
  background-color: white;
@@ -181,20 +182,20 @@
  padding-bottom: 10px;
  background-color: white;
  font-weight: 800;
- font-size: 1.5rem;
+ font-size: 2rem;
 }
 
 .TotalFee {
  display: flex;
  align-items: center;
- font-size: 1.8rem;
+ font-size: 1rem;
  font-weight: 350;
  padding-right: 10px;
  color: rgb(20, 131, 20);
 }
 
 .eachBook {
- height: 80px;
+ height: 20%;
  border-bottom: 1px solid rgb(156, 156, 156);
  padding: 5px;
  display: flex;
@@ -202,16 +203,18 @@
  justify-content: space-between;
  align-items: center;
  font-weight: 200;
- font-size: 1.2rem;
+ font-size: 1rem;
 }
 
 .bookName {
- max-width: 600px;
+ border: 2px solid red;
+ max-width: 18vw;
+ font-size: 1vw;
 }
 
 .bookAmount {
  font-weight: 200;
- font-size: 1.2rem;
+ font-size: 2vw;
  display: flex;
  align-items: center;
  width: 250px;
@@ -225,7 +228,7 @@
  display: flex;
  justify-content: right;
  font-weight: 200;
- font-size: 1.2rem;
+ font-size: 2vw;
  font-family: 'Roboto Condensed';
  font-weight: bold;
 }
@@ -235,13 +238,14 @@
  align-items: center;
  justify-content: space-between;
  font-weight: bolder;
- height: 35px;
- padding: 5px;
  background-color: rgb(168, 168, 168);
 }
 
 .header2Left {
- font-size: 1.2rem;
+ border: 2px solid red;
+ margin-left: 5px;
+ width: 5vw;
+ font-size: 0.8rem;
  font-weight: bolder;
 
 }
@@ -260,4 +264,36 @@
 
 .header2RightRight {
  margin-right: 20px;
+}
+
+@media (max-width: 720px) {
+ .main {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: 2px solid red;
+  flex-direction: column;
+ }
+}
+
+
+@media (max-width: 500px) {
+
+ .list {
+  border: 2px solid red;
+  margin: 10px 50px;
+  width: 80%;
+  height: 64vh;
+ }
+
+ .input {
+  border: 1px solid black;
+  margin: 15px 20px;
+  width: 70%;
+  height: 38px;
+  font-size: 0.9rem;
+  padding: 6px;
+  border-radius: 5px;
+  font-family: inherit;
+ }
 }
