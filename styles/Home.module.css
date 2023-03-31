@@ -1,19 +1,17 @@
 .container {
  display: flex;
  justify-content: center;
- height: 2500px;
 }
 
 .body {
- width: 1600px;
- height: 800px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
  border-bottom: 0.5px solid black;
 }
 
 .titleLine {
  display: flex;
- padding-left: 80px;
- width: 1000px;
 }
 
 .title {
@@ -30,9 +28,11 @@
 }
 
 .bookContainer {
+ border-radius: 8px;
+ background-color: #c5c5c5;
  display: flex;
  justify-content: center;
- height: 800px;
+ flex-wrap: wrap;
 }
 
 .bookDisplay {
@@ -49,7 +49,5 @@
 }
 
 .body2 {
- width: 1600px;
- height: 800px;
  border-bottom: 0.5px solid black;
 }

@@ -40,31 +40,37 @@ a {
   justify-content: space-evenly;
   align-items: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   font-weight: 200;
 }
 
 
 
 .booklist {
-  font-size: 1.8rem;
+  text-align: center;
+  font-size: 1.5vw;
   font-weight: 200;
   color: rgb(255, 219, 61)
 }
 
 .booklist:hover {
   text-underline-offset: 20px;
-  text-decoration: underline 0.15em rgb(255, 219, 61);
+  text-decoration: underline 0.05vw rgb(255, 219, 61);
   transition: 1.2s;
 }
 
 .resizeShoppingCart {
-  width: 22px;
+  width: 2vh;
   height: auto;
 }
 
 .resizeLogin {
-  width: 32px;
+  width: 2vh;
+  height: auto;
+}
+
+.resizeHome {
+  width: 2vh;
   height: auto;
 }
 

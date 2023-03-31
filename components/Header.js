@@ -22,6 +22,7 @@ function Header() {
         <li><Link href="/"><Image src='/homepage.png'
           alt="Picture of homepage"
           width={23} height={20}
+          className='resizeHome'
         /> 主頁</Link></li>
         <li className='booklist'>{path === '/BookForKid' ? <Link href='/BookForKid' className='underline'>兒童圖書</Link>
           : <Link href='/BookForKid'>兒童圖書</Link>}</li>

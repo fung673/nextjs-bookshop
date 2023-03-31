@@ -2,35 +2,36 @@
  display: flex;
  flex-direction: row;
  color: grey;
- font-size: 1.5rem;
+ font-size: 2vw;
  font-weight: bolder;
  color: #ffffff;
- margin: 0px 300px 0px 300px;
+ margin: 20px;
 }
 
 .arrow {
- width: 25px;
+ width: 3%;
  height: auto;
  margin: 0px 5px;
 }
 
 .loginBox {
+ margin: 5px 5px;
+ display: flex;
  border-radius: 20px;
- margin: 50px 300px 0px 300px;
- height: 500px;
+ height: 53vh;
  border: 1px solid grey;
  background-color: white;
  display: flex;
  flex-direction: column;
  align-items: center;
- padding: 20px;
+ padding: 1.04vw;
 }
 
 .loginBox .title {
  display: flex;
  align-items: center;
- font-size: 1.5rem;
- width: 550px;
+ width: 50%;
+ font-size: 1.5vw;
  height: 50px;
  font-weight: bolder;
  color: rgb(39, 39, 39);
@@ -42,13 +43,22 @@
  border-left: 8px solid rgb(39, 39, 39);
 }
 
+.userBox {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 75%;
+}
+
 .account {
  margin-top: 20px;
  margin-bottom: 5px;
  display: flex;
- width: 550px;
+ width: 65%;
  justify-content: flex-start;
- font-size: 1.2rem;
+ align-items: center;
+ font-size: 1.5vw;
  font-weight: bold
 }
 
@@ -58,10 +68,10 @@
 
 .typeAccount {
  border-radius: 6px;
- width: 550px;
- height: 38px;
+ width: 65%;
+ height: 20%;
  border: 2px solid grey;
- font-size: 1rem;
+ font-size: 1.5vw;
  padding-left: 10px;
  font-weight: 500
 }
@@ -74,18 +84,19 @@
  margin-top: 10px;
  margin-bottom: 5px;
  display: flex;
- width: 550px;
+ width: 65%;
  justify-content: flex-start;
- font-size: 1.2rem;
+ align-items: center;
+ font-size: 1.5vw;
  font-weight: bold;
 }
 
 .typePassword {
  border-radius: 6px;
- width: 550px;
- height: 38px;
+ width: 65%;
+ height: 20%;
  border: 2px solid grey;
- font-size: 1rem;
+ font-size: 1.5vw;
  padding-left: 10px;
 }
 
@@ -94,7 +105,7 @@
 }
 
 .login {
- width: 550px;
+ width: 25%;
  margin-top: 80px;
  font-size: 1.5rem;
  font-weight: bolder;
